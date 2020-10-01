@@ -37,7 +37,7 @@ void gameloop()
     {
         // show placeable positions on board
         system("CLS");
-        show_placeable((turn%2) == 0 ? 'W' : 'B');
+        show_placeable((turn%2) == 0 ? 'B' : 'W');
         draw();
 
         // display scores
